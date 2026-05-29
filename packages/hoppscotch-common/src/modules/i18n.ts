@@ -137,15 +137,6 @@ const resolveCurrentLocale = async () =>
       )
     ),
 
-    // Else load from navigator.language
-    O.alt(() =>
-      pipe(
-        APP_LANGUAGES,
-        A.findFirst(({ code }) => navigator.language.startsWith(code)), // en-US should also match to en
-        O.map(({ code }) => code)
-      )
-    ),
-
     // Else load fallback
     O.getOrElse(() => FALLBACK_LANG_CODE)
   )

@@ -134,7 +134,7 @@ export default defineConfig({
     VueI18n({
       runtimeOnly: false,
       compositionOnly: true,
-      include: [path.resolve(__dirname, "locales")],
+      include: [path.resolve(__dirname, "../hoppscotch-common/locales")],
     }),
     Components({
       dts: "../hoppscotch-common/src/components.d.ts",
@@ -250,7 +250,7 @@ export default defineConfig({
       fontsource: {
         families: [
           {
-            name: "Inter Variable",
+            name: "DM Sans Variable",
             variables: ["variable-full"],
           },
           {

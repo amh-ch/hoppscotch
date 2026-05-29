@@ -83,12 +83,12 @@ const currentState =
       )
     : ref({
         status: "disconnected" as const,
-        instance: { displayName: "Hoppscotch" },
+        instance: { displayName: "Requestmate" },
       })
 
 const instanceDisplayName = computed(() => {
   if (currentState.value.status !== "connected") {
-    return "Hoppscotch"
+    return "Requestmate"
   }
   return currentState.value.instance.displayName
 })
@@ -305,7 +305,7 @@ watch(
 
 usePageHead({
   title: computed(
-    () => publishedDoc.value?.title || "Hoppscotch Documentation"
+    () => publishedDoc.value?.title || "Requestmate Documentation"
   ),
   meta: [
     {
@@ -313,13 +313,13 @@ usePageHead({
       content: computed(
         () =>
           collectionData.value?.description ||
-          "Hoppscotch API Documentation - Open source API development ecosystem"
+          "Requestmate API Documentation - Open source API development ecosystem"
       ),
     },
     {
       property: "og:title",
       content: computed(
-        () => publishedDoc.value?.title || "Hoppscotch Documentation"
+        () => publishedDoc.value?.title || "Requestmate Documentation"
       ),
     },
     {
@@ -327,12 +327,12 @@ usePageHead({
       content: computed(
         () =>
           collectionData.value?.description ||
-          "Hoppscotch API Documentation - Open source API development ecosystem"
+          "Requestmate API Documentation - Open source API development ecosystem"
       ),
     },
     {
       property: "og:site_name",
-      content: "Hoppscotch",
+      content: "Requestmate",
     },
     {
       property: "og:image",
@@ -344,16 +344,16 @@ usePageHead({
     },
     {
       name: "twitter:site",
-      content: "@hoppscotch_io",
+      content: "@requestmate",
     },
     {
       name: "twitter:creator",
-      content: "@hoppscotch_io",
+      content: "@requestmate",
     },
     {
       name: "twitter:title",
       content: computed(
-        () => publishedDoc.value?.title || "Hoppscotch Documentation"
+        () => publishedDoc.value?.title || "Requestmate Documentation"
       ),
     },
     {
@@ -361,7 +361,7 @@ usePageHead({
       content: computed(
         () =>
           collectionData.value?.description ||
-          "Hoppscotch API Documentation - Open source API development ecosystem"
+          "Requestmate API Documentation - Open source API development ecosystem"
       ),
     },
     {

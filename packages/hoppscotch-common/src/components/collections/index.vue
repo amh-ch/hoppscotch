@@ -3137,7 +3137,7 @@ const initializeDownloadCollection = async (
     suggestedFilename: `${name ?? "collection"}.json`,
     filters: [
       {
-        name: "Hoppscotch Collection JSON file",
+        name: "Requestmate Collection JSON file",
         extensions: ["json"],
       },
     ],

@@ -127,7 +127,7 @@ export const getDefaultSettings = (): SettingsDef => {
       bearerToken: true,
       oauth2Token: true,
     },
-    THEME_COLOR: "indigo",
+    THEME_COLOR: "yellow",
     BG_COLOR: "system",
     ENCODE_MODE: "enable",
     TELEMETRY_ENABLED: true,

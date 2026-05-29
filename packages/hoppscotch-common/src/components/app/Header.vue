@@ -26,12 +26,12 @@
             :on-shown="() => switcherRef?.focus()"
             :on-create="onSwitcherCreate"
           >
-            <HoppButtonSecondary
-              class="!font-bold uppercase tracking-wide !text-secondaryDark hover:bg-primaryDark focus-visible:bg-primaryDark"
-              :label="t('app.name')"
-              :icon="IconChevronDown"
-              reverse
-            />
+            <button
+              class="flex items-center gap-1 rounded px-2 py-1.5 hover:bg-primaryDark focus-visible:bg-primaryDark focus:outline-none"
+            >
+              <img src="/logo.svg" alt="Requestmate" class="h-6 w-auto" />
+              <component :is="IconChevronDown" class="svg-icons text-secondaryDark" />
+            </button>
             <template #content="{ hide }">
               <div
                 ref="switcherRef"
@@ -56,12 +56,13 @@
             </template>
           </tippy>
 
-          <HoppButtonSecondary
+          <RouterLink
             v-else
-            class="!font-bold uppercase tracking-wide !text-secondaryDark hover:bg-primaryDark focus-visible:bg-primaryDark"
-            :label="t('app.name')"
             to="/"
-          />
+            class="flex items-center rounded px-2 py-1.5 hover:bg-primaryDark focus-visible:bg-primaryDark focus:outline-none"
+          >
+            <img src="/logo.svg" alt="Requestmate" class="h-6 w-auto" />
+          </RouterLink>
         </div>
       </div>
       <div

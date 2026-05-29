@@ -43,20 +43,20 @@
   --popover-color: #1b1b1b;
 }
 
-@mixin green-theme {
-  --accent-color: #10b981;
-  --accent-light-color: #34d399;
-  --accent-dark-color: #059669;
+@mixin amber-theme {
+  --accent-color: #f59e0b;
+  --accent-light-color: #fbbf24;
+  --accent-dark-color: #d97706;
   --accent-contrast-color: #fff;
-  --gradient-from-color: #a7f3d0;
-  --gradient-via-color: #34d399;
-  --gradient-to-color: #059669;
+  --gradient-from-color: #fde68a;
+  --gradient-via-color: #fbbf24;
+  --gradient-to-color: #d97706;
 }
 
 :root {
   @include base-theme;
   @include dark-theme;
-  @include green-theme;
+  @include amber-theme;
 }
 
 :root.dark {
@@ -64,8 +64,8 @@
   color-scheme: dark;
 }
 
-:root[data-accent='green'] {
-  @include green-theme;
+:root[data-accent='amber'] {
+  @include amber-theme;
 }
 
 * {

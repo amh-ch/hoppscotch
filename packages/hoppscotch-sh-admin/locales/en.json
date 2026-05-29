@@ -13,7 +13,7 @@
     "collapse_sidebar": "Collapse Sidebar",
     "continue_to_dashboard": "Continue to Dashboard",
     "expand_sidebar": "Expand Sidebar",
-    "name": "HOPPSCOTCH",
+    "name": "REQUESTMATE",
     "no_name": "No name",
     "open_navigation": "Open Navigation",
     "read_documentation": "Read Documentation"
@@ -29,7 +29,7 @@
   "configs": {
     "auth_providers": {
       "auth_provider_config": "Authentication Configurations",
-      "auth_provider_description": "Set up authentication methods for your Hoppscotch instance using OAuth or Email.",
+      "auth_provider_description": "Set up authentication methods for your Requestmate instance using OAuth or Email.",
       "callback_url": "CALLBACK URL",
       "client_id": "CLIENT ID",
       "client_secret": "CLIENT SECRET",
@@ -59,13 +59,13 @@
       },
       "update_failure": "Failed to update authentication provider configurations!!"
     },
-    "confirm_changes": "Hoppscotch server must restart to reflect the new changes. Confirm changes made to the server configurations?",
+    "confirm_changes": "Requestmate server must restart to reflect the new changes. Confirm changes made to the server configurations?",
     "invalid_number": "Please enter a valid number for the field",
     "input_empty": "Please fill all the fields before updating the configurations",
     "input_validation_error": "Some fields have invalid values. Please correct them before updating the configurations",
     "data_sharing": {
       "title": "Data Sharing",
-      "description": "Help improve Hoppscotch by sharing anonymous data",
+      "description": "Help improve Requestmate by sharing anonymous data",
       "enable": "Enable Data Sharing",
       "secondary_title": "Data Sharing Configurations",
       "see_shared": "See what is shared",
@@ -103,7 +103,7 @@
       "user": "SMTP User"
     },
     "history_configs": {
-      "description": "Disable or enable tracking history of sent requests from the Hoppscotch app",
+      "description": "Disable or enable tracking history of sent requests from the Requestmate app",
       "title": "History Configurations",
       "enable_history": "Enable History",
       "clear_history": "Clear existing history",
@@ -113,7 +113,7 @@
       "clear_confirm": "Are you sure you want to clear all history?"
     },
     "rate_limit": {
-      "description": "Configure rate limiting for your Hoppscotch instance",
+      "description": "Configure rate limiting for your Requestmate instance",
       "rate_limit_max": "Maximum Requests",
       "rate_limit_ttl": "Time to Leave (in milliseconds)",
       "title": "Rate Limit Configurations",
@@ -121,7 +121,7 @@
       "input_validation_error": "Please enter valid values for rate limit configurations"
     },
     "reset": {
-      "confirm_reset": "Hoppscotch server must restart to reflect the new changes. Confirm the reset of server configurations?",
+      "confirm_reset": "Requestmate server must restart to reflect the new changes. Confirm the reset of server configurations?",
       "description": "Default configurations will be loaded as specified in the environment file",
       "failure": "Failed to reset configurations!!",
       "title": "Reset Configurations",
@@ -156,11 +156,11 @@
     "update_failure": "Failed to update server configurations"
   },
   "data_sharing": {
-    "description": "Share anonymous data usage to improve Hoppscotch",
+    "description": "Share anonymous data usage to improve Requestmate",
     "enable": "Enable Data Sharing",
     "see_shared": "See what is shared",
-    "toggle_description": "Share data and make Hoppscotch better",
-    "title": "Make Hoppscotch Better",
+    "toggle_description": "Share data and make Requestmate better",
+    "title": "Make Requestmate Better",
     "welcome": "Welcome to"
   },
   "infra_tokens": {
@@ -177,7 +177,7 @@
     "last_used_on": "Last used on",
     "no_expiration": "No expiration",
     "no_expiration_verbose": "This token will never expire!",
-    "section_description": "Manage your Hoppscotch users through APIs with Infra tokens.",
+    "section_description": "Manage your Requestmate users through APIs with Infra tokens.",
     "section_title": "Infra Tokens",
     "tab_title": "Infra Tokens",
     "token_expires_on": "This token will expire on",
@@ -195,7 +195,7 @@
     "description": "Get updates about our latest news",
     "subscribe": "Subscribe",
     "title": "Stay in Touch",
-    "toggle_description": "Get updates about the latest at Hoppscotch",
+    "toggle_description": "Get updates about the latest at Requestmate",
     "unsubscribe": "Unsubscribe"
   },
   "onboarding": {
@@ -206,12 +206,12 @@
     "auth_setup": "Authentication Setup",
     "auth_successfully_configured": "authentication has been successfully configured.",
     "complete": "Complete",
-    "complete_description": "You have completed the onboarding process. You can now start using Hoppscotch.",
+    "complete_description": "You have completed the onboarding process. You can now start using Requestmate.",
     "complete_title": "Onboarding Complete",
     "configurations": "Configurations",
     "configurations_added_successfully": "Onboarding Configurations added successfully.",
     "configurations_adding_failed": "Failed to add onboarding configs, please try again.",
-    "configurations_description": "Configure your Hoppscotch instance settings.",
+    "configurations_description": "Configure your Requestmate instance settings.",
     "configuration_error": "Failed to add configurations",
     "configurations_title": "Server Configurations",
     "configuration_summary": "Configuration Summary",
@@ -229,7 +229,7 @@
     "save_auth_config": "Save Auth Config",
     "setup_complete": {
       "title": "Setup Complete",
-      "description": "You have successfully completed the onboarding process for your Hoppscotch instance.",
+      "description": "You have successfully completed the onboarding process for your Requestmate instance.",
       "description_sub": "The page will automatically redirect to the dashboard in a few seconds or you can reload once the server is restarted."
     },
     "server_restarting": "Server is restarting in {time} seconds...",
@@ -244,7 +244,7 @@
     "select_atleast_one": "Please select at least one authentication provider to continue.",
     "start_onboarding": "Start Onboarding",
     "welcome": "Welcome",
-    "welcome_screen_description": "Welcome to Hoppscotch! Let's get started with the setup.",
+    "welcome_screen_description": "Welcome to Requestmate! Let's get started with the setup.",
     "welcome_screen_sub_description": "Please set up either SMTP or OAuth for authentication."
   },
   "settings": {
@@ -378,7 +378,7 @@
     "users_to_admin_failure": "Failed to elevate selected users to admin status!!"
   },
   "support": {
-    "description": "Get help from the Hoppscotch community",
+    "description": "Get help from the Requestmate community",
     "documentation": "Documentation",
     "more_info": "More Info"
   },
@@ -472,7 +472,7 @@
     "invalid_user": "Invalid User",
     "invite_load_list_error": "Unable to Load Invited Users List",
     "invite_user": "Invite User",
-    "invite_users_description": "Invite your team members to join Hoppscotch.",
+    "invite_users_description": "Invite your team members to join Requestmate.",
     "invited_by": "Invited By",
     "invited_on": "Invited On",
     "invited_users": "Invited Users",

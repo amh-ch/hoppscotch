@@ -22,7 +22,7 @@ export const initializeDownloadFile = async (
     suggestedFilename: `${fileName}.json`,
     filters: [
       {
-        name: "Hoppscotch Collection/Environment JSON file",
+        name: "Requestmate Collection/Environment JSON file",
         extensions: ["json"],
       },
     ],

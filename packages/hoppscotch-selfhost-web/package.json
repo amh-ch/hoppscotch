@@ -23,6 +23,7 @@
     "postinstall": "pnpm run gql-codegen"
   },
   "dependencies": {
+    "@fontsource-variable/dm-sans": "5.2.8",
     "@fontsource-variable/inter": "5.2.8",
     "@fontsource-variable/material-symbols-rounded": "5.2.43",
     "@fontsource-variable/roboto-mono": "5.2.8",

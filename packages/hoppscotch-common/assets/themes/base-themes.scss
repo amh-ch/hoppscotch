@@ -1,5 +1,5 @@
 @mixin base-theme {
-  --font-sans: "Inter Variable", sans-serif;
+  --font-sans: "DM Sans Variable", sans-serif;
   --font-mono: "Roboto Mono Variable", monospace;
   --font-size-body: 0.75rem;
   --font-size-tiny: 0.625rem;
@@ -63,8 +63,8 @@
 }
 
 @mixin dark-theme {
-  --primary-color: #181818;
-  --primary-light-color: #1c1c1e;
+  --primary-color: #1e1e1e;
+  --primary-light-color: #242424;
   --primary-dark-color: theme("colors.neutral.800");
   --primary-contrast-color: theme("colors.neutral.900");
 
@@ -72,8 +72,8 @@
   --secondary-light-color: theme("colors.neutral.500");
   --secondary-dark-color: theme("colors.zinc.50");
 
-  --divider-color: #1f1f1f;
-  --divider-light-color: #1f1f1f;
+  --divider-color: #272727;
+  --divider-light-color: #272727;
   --divider-dark-color: theme("colors.zinc.800");
 
   --banner-info-color: theme("colors.stone.800");
@@ -81,7 +81,7 @@
   --banner-error-color: theme("colors.red.800");
 
   --tooltip-color: theme("colors.neutral.100");
-  --popover-color: #1b1b1b;
+  --popover-color: #222222;
 
   --method-get-color: theme("colors.emerald.500");
   --method-post-color: theme("colors.yellow.500");

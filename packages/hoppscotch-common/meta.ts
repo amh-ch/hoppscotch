@@ -1,19 +1,19 @@
 import { IHTMLTag } from "vite-plugin-html-config"
 
 export const APP_INFO = {
-  name: "Hoppscotch",
+  name: "Requestmate",
   shortDescription: "Open source API development ecosystem",
   description:
     "Helps you create requests faster, saving precious time on development.",
   keywords:
-    "hoppscotch, hopp scotch, hoppscotch online, hoppscotch app, postwoman, postwoman chrome, postwoman online, postwoman for mac, postwoman app, postwoman for windows, postwoman google chrome, postwoman chrome app, get postwoman, postwoman web, postwoman android, postwoman app for chrome, postwoman mobile app, postwoman web app, api, request, testing, tool, rest, websocket, sse, graphql, socketio",
+    "requestmate, request mate, requestmate online, requestmate app, api, request, testing, tool, rest, websocket, sse, graphql, socketio",
   app: {
-    background: "#181818",
+    background: "#1e1e1e",
     lightThemeColor: "#ffffff",
-    darkThemeColor: "#181818",
+    darkThemeColor: "#1e1e1e",
   },
   social: {
-    twitter: "@hoppscotch_io",
+    twitter: "@requestmate",
   },
 } as const
 

@@ -63,7 +63,7 @@ const emit = defineEmits<{
 }>()
 
 const url = "https://hoppscotch.io"
-const text = "Hoppscotch - Open source API development ecosystem."
+const text = "Requestmate - Open source API development ecosystem."
 const description =
   "Helps you create requests faster, saving precious time on development."
 const subject = "Checkout Hoppscotch - an open source API development ecosystem"
